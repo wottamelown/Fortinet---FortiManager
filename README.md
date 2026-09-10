@@ -14,4 +14,40 @@
 6. FortiGuard: To see license and upgrade the firewalls.
 7. Fortiswitch Manager: to change the ports of fsw.
 8. Reports: Generate reports.
-9. 
+
+-- Important Topics --
+
+9. We can create ADOMs to create logical grouping according to the requirements.
+10. Device Registration: Discover Device using IP, ADD S/N then IP, using CSV.
+11. We can do registration using FGT as well using Fabric Connectors. 
+12. 
+
+-- Provisioning Templates --
+
+13. We can create System templates, SD-WAN Templates, IPSec Tunnel Templates, BGP, Static Route Templates, CLI Templates
+14. Then we have Template Groups to combine all the above templates and push it to the devices.
+15. We can import the templates from already available devices FGTs and then make a templates.
+16. We can assign the templates then go to device manager to install the templates.
+
+-- Device Groups --
+
+17. Device Groups > Managed ForitGates > Create New Group.
+
+-- Scripts --
+
+18. There are 2 types of scripts CLI and TCL.
+19. We can create a script to configure using CLI ZTP and then push it to devices to update the configuration.
+
+-- Revision History --
+20. Revision history means to check the history and revert back if something goes wrong. 
+21. We can check the revision history by going to the FGT in device manager and then click on it then Device Revisions. 
+22. The updates shows (Auto-Update, Out Of Sync, Modified, Modified (recent auto updated)
+
+-- Policy & Objects --
+
+23. These are like the firewall policies which we can set per device or per group.
+24. Policy Package is a firewall rule. Objects are the IP addresses, FQDNs, Security Profiles, Virtual Servers etc etc.
+25. Normalized Interfaces are different int configurations for each device.
+26. First Step is to create normalized Interface For LAN, WAN
+27. Then we can create Policy Package and then create firewall policy.  
+28. 
