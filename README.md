@@ -50,4 +50,10 @@
 25. Normalized Interfaces are different int configurations for each device.
 26. First Step is to create normalized Interface For LAN, WAN
 27. Then we can create Policy Package and then create firewall policy.  
-28. 
+28. Last step if to add the installation targets and then install policy package.
+
+-- VPN Manager --
+29. Forti Manager supports Full Mesh, Star, Dial Up. 
+30. Mesh means all devices has a tunnel to other HQ - DC, DC - Site, HQ - Site.
+31. Star means Sites will forward the traffic to HUB and send all the traffic to HQ. 
+32. 
